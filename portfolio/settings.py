@@ -44,7 +44,7 @@ INSTALLED_APPS = [
 
 EXTRA_APPS = []
 
-PROJECT_APPS = []
+PROJECT_APPS = ['portfolio.core']
 
 INSTALLED_APPS += EXTRA_APPS
 INSTALLED_APPS += PROJECT_APPS
@@ -123,6 +123,8 @@ DATE_FORMAT = 'd/m/Y'
 DATETIME_FORMAT = 'd/m/Y G:i:s'
 TIME_FORMAT = 'G:i'
 
+
+LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale')]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
