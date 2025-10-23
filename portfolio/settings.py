@@ -42,9 +42,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
-EXTRA_APPS = []
+EXTRA_APPS = ['test_without_migrations']
 
-PROJECT_APPS = ['portfolio.core']
+PROJECT_APPS = ['portfolio.core', 'portfolio.blog']
 
 INSTALLED_APPS += EXTRA_APPS
 INSTALLED_APPS += PROJECT_APPS
